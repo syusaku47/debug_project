@@ -395,22 +395,21 @@
                 color: rgba(107, 114, 128, var(--tw-text-opacity))
             }
         }
-
     </style>
 
     <style>
         body {
             font-family: 'Nunito', sans-serif;
         }
-
     </style>
 </head>
 
 <body class="antialiased">
     <h1>デバッグツール</h1>
-    <p>開始_{{$start}}</p>
-    <p>終了_{{$end}}</p>
-    <p>経過時間_{{$end - $start}}</p>
+    <p>開始_{{ $start }}</p>
+    <p>終了_{{ $end }}</p>
+    <p>経過時間_{{ $end - $start }}</p>
+    <p>プログラム実行結果_{{ $result }}</p><br>
 </body>
 
 </html>

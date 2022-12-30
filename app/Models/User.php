@@ -41,4 +41,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function sum($val){
+        return $val+1;
+    }
+
+
+
+
+
+
+
 }
